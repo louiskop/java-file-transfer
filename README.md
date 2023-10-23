@@ -1,11 +1,20 @@
-## Please note before working:
-- This repo must not contain any images/videos that are intended to be sent between clients, as this takes up lots of space. If files are to be transfered between clients, please save them locally onto the computer itself.
-- If you have already started working on the project before this repo was made available, you can just copy your current directory's work into this repo.
+# Java File Transfer
+A client/server Java application for peer-to-peer file transfers over UDP and TCP. 
+This project was done in collaboration with others and my main focus was server side.
 
-Reminder that the demo date is on the 1 March 2023. Good luck and try to have fun!
+[@therealnin3](https://www.github.com/therealnin3) <br/>
+[@AGiLiTii](https://www.github.com/AGiLiTii) <br/>
+[@Migaelvw](https://www.github.com/Migaelvw)
 
-## Makefile
+## What I learned
+- Java Sockets UDP and TCP
+- Java Concurrency (Threads)
+- Peer to Peer software (server only handles initial requests)
+- File integrity checks
+- Networking and Packets
+
+## How to run
+- `cd src`
 - `make s` to compile and run the server
 - `make c` to compile and run the client
-- `bash run.sh` to compile and run the server and 2 clients on 1 machine
-	(DEBUGGING)
+- NOTE: run 2 clients as well as the server
